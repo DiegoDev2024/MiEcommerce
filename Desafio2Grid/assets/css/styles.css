@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+.grid-container{
+    display: grid;
+    font: robo;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header{
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+}
+
+.cursos{
+    grid-area: cursos;
+    border: 5px black;
+    display: flex;
+    align-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: flex-start;
+    text-align: center;
+}
+
+.banner{
+    grid-area: banner;
+}
+
+.footer{
+    grid-area: footer;
+}
+
